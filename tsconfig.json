@@ -5,6 +5,7 @@
     "outDir": "dist",
     "noImplicitAny": true,
     "removeComments": true,
+    "resolveJsonModule": true,
     "moduleResolution": "Node"
   },
   "include": ["src"] 
