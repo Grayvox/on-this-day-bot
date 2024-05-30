@@ -1,3 +1,5 @@
+import fs from 'node:fs';
+import path from 'node:path';
 import { Client, Events, GatewayIntentBits } from 'discord.js';
 import { token } from '../config.json';
 
