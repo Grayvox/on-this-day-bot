@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "An alternative to the class QOTD",
   "main": "index.js",
+  "type": "module",
   "keywords": [],
   "author": "Grayvox",
   "license": "MPL-2.0",
@@ -10,7 +11,12 @@
     "discord.js": "^14.15.2"
   },
   "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "@types/eslint__js": "^8.42.3",
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
+    "@typescript-eslint/parser": "^7.11.0",
     "eslint": "^9.3.0",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.11.0"
   }
 }
