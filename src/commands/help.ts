@@ -1,10 +1,10 @@
-import { Interaction, SlashCommandBuilder } from 'discord.js';
+import { CommandInteraction, SlashCommandBuilder } from 'discord.js';
 
 export default {
     data: new SlashCommandBuilder()
         .setName('help')
         .setDescription('Provides help to the user'),
-    async execute(interaction: any) {
+    async execute(interaction: CommandInteraction) {
         await interaction.reply('It works!')
     }
 }
